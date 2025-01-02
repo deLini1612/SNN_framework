@@ -16,7 +16,7 @@ module slice_decoder (
     output reg param_o
 );
 
-    always @(addr_i) begin
+    always @(addr_i, en_i) begin
         // Default outputs to 0
         synap_matrix_o = 0;
         param_o = 0;

@@ -12,7 +12,7 @@ module synapse_matrix (
 );
 
 
-RAM256 sram (
+DFFRAM256x32 sram (
     `ifdef USE_POWER_PINS
     .VPWR (VPWR),    // User area 1 1.8V supply
     .VGND (VGND),    // User area 1 digital ground
