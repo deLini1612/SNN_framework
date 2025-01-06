@@ -18,7 +18,7 @@ module core_decoder # (
     output reg send_spike_o
 );
 
-    always @(addr_i) begin
+    always @(addr_i, en_i) begin
         // Default outputs to 0
         slice_o = 0;
         send_spike_o = 0;
