@@ -1,0 +1,5 @@
+setup.py
+edabkutils.egg-info/PKG-INFO
+edabkutils.egg-info/SOURCES.txt
+edabkutils.egg-info/dependency_links.txt
+edabkutils.egg-info/top_level.txt

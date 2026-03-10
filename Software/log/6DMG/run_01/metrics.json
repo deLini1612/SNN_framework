@@ -1,0 +1,8 @@
+{
+    "val_accuracy": 0.9332591891288757,
+    "test_accuracy": 0.9305431842803955,
+    "test_loss": 0.23877672851085663,
+    "epochs_trained": 113,
+    "batch_size": 64,
+    "total_epochs": 300
+}

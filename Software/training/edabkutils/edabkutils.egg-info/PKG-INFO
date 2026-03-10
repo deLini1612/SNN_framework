@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: edabkutils
+Version: 0.1
+Summary: Utility functions for working with the EDABK SNN framework.
+Author: Phuong Linh Nguyen
+Author-email: ling.npl.1612@gmail.com
+Classifier: Programming Language :: Python :: 3.6.1
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: summary
