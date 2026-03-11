@@ -1,0 +1,11 @@
+setup.py
+tealayer3/__init__.py
+tealayer3/additivepooling.py
+tealayer3/helper_functions.py
+tealayer3/tea.py
+tealayer3.egg-info/PKG-INFO
+tealayer3.egg-info/SOURCES.txt
+tealayer3.egg-info/dependency_links.txt
+tealayer3.egg-info/not-zip-safe
+tealayer3.egg-info/requires.txt
+tealayer3.egg-info/top_level.txt

@@ -125,6 +125,7 @@ def preprocess_edabk(data_dir, output_path, test_size=0.2):
         print(f"{name} -> {len(Xi)} samples")
 
     X = np.stack(X)
+    X = X.reshape(-1, 9, 72)
     y = np.array(y)
 
     X_train, X_test, y_train, y_test = train_test_split(
@@ -175,6 +176,8 @@ def main():
     args = parser.parse_args()
     data_dir = args.raw_dir + "/" + args.dataset
     output_file = args.processed_dir + "/" + args.dataset
+
+    os.makedirs(args.processed_dir, exist_ok=True)
 
     if args.dataset == "6DMG":
         preprocess_6dmg(data_dir, output_file)

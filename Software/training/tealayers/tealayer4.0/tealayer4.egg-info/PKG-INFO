@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: tealayer4
+Version: 4.0
+Summary: TensorFlow 2.0 Layers for running TeaLearning Networks
+Home-page: FIXME
+Author: Spencer Valancius, Ruben Purdy
+Author-email: svalancius12@email.arizona.edu, rubenpurdy@email.arizona.edu
+License: MIT
+Classifier: Programming Language :: Python :: 3.6.8
+Requires-Dist: tensorflow
+Requires-Dist: numpy
+Requires-Dist: Pillow
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: summary
